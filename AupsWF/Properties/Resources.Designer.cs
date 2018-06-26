@@ -83,6 +83,16 @@ namespace AupsWF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap file {
+            get {
+                object obj = ResourceManager.GetObject("file", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img01 {
             get {
                 object obj = ResourceManager.GetObject("img01", resourceCulture);
@@ -106,6 +116,16 @@ namespace AupsWF.Properties {
         internal static System.Drawing.Bitmap img03 {
             get {
                 object obj = ResourceManager.GetObject("img03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap operativni {
+            get {
+                object obj = ResourceManager.GetObject("operativni", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

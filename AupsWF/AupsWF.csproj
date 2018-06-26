@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Documents\Visual Studio 2017\Projects\AupsWF\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
@@ -73,6 +73,12 @@
     <Compile Include="FormOperacijaRadaShowCell.Designer.cs">
       <DependentUpon>FormOperacijaRadaShowCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormOperativniPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOperativniPlan.Designer.cs">
+      <DependentUpon>FormOperativniPlan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormOperacijaRadaShowCell.resx">
       <DependentUpon>FormOperacijaRadaShowCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOperativniPlan.resx">
+      <DependentUpon>FormOperativniPlan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\analysis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operativni.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCalculate = new MetroFramework.Controls.MetroTile();
             this.txtIme = new MetroFramework.Controls.MetroTextBox();
             this.txtNaziv = new MetroFramework.Controls.MetroLabel();
             this.txtID = new MetroFramework.Controls.MetroTextBox();
@@ -39,23 +38,9 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.txtKlijent = new MetroFramework.Controls.MetroTextBox();
             this.lblKlijent = new MetroFramework.Controls.MetroLabel();
+            this.btnCalculate = new MetroFramework.Controls.MetroTile();
             this.btnSave = new MetroFramework.Controls.MetroTile();
             this.SuspendLayout();
-            // 
-            // btnCalculate
-            // 
-            this.btnCalculate.ActiveControl = null;
-            this.btnCalculate.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnCalculate.Location = new System.Drawing.Point(77, 265);
-            this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(226, 87);
-            this.btnCalculate.TabIndex = 33;
-            this.btnCalculate.TileImage = global::AupsWF.Properties.Resources.pic13;
-            this.btnCalculate.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCalculate.UseCustomBackColor = true;
-            this.btnCalculate.UseCustomForeColor = true;
-            this.btnCalculate.UseSelectable = true;
-            this.btnCalculate.UseTileImage = true;
             // 
             // txtIme
             // 
@@ -212,6 +197,21 @@
             this.lblKlijent.TabIndex = 22;
             this.lblKlijent.Text = "Klijent:";
             // 
+            // btnCalculate
+            // 
+            this.btnCalculate.ActiveControl = null;
+            this.btnCalculate.BackColor = System.Drawing.Color.DarkCyan;
+            this.btnCalculate.Location = new System.Drawing.Point(77, 265);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(226, 87);
+            this.btnCalculate.TabIndex = 33;
+            this.btnCalculate.TileImage = global::AupsWF.Properties.Resources.pic13;
+            this.btnCalculate.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCalculate.UseCustomBackColor = true;
+            this.btnCalculate.UseCustomForeColor = true;
+            this.btnCalculate.UseSelectable = true;
+            this.btnCalculate.UseTileImage = true;
+            // 
             // btnSave
             // 
             this.btnSave.ActiveControl = null;
@@ -246,7 +246,7 @@
             this.Controls.Add(this.txtKlijent);
             this.Controls.Add(this.lblKlijent);
             this.Name = "FormOperacijaRada";
-            this.Text = "Operativni plan";
+            this.Text = "Operacija rada";
             this.ResumeLayout(false);
             this.PerformLayout();
 

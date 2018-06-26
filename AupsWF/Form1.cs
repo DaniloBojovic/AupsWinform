@@ -112,6 +112,12 @@ namespace AupsWF
             }
         }
 
+        private void tileProizvodniPlan_Click(object sender, EventArgs e)
+        {
+            FormOperativniPlan fOP = new FormOperativniPlan();
+            fOP.ShowDialog();
+        }
+
         public void getData(string command)
         {
             try
